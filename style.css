@@ -1,0 +1,57 @@
+/* Style for body */
+body {
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Style for h1 */
+h1 {
+  text-align: center;
+}
+
+/* Style for form */
+form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Style for table */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+table td,
+table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table th {
+  text-align: left;
+  background-color: #eee;
+}
+
+/* Style for form inputs */
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input[type="file"] {
+  margin-bottom: 10px;
+}
+
+form button[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

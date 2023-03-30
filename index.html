@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Student Marks Analysis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Student Marks Analysis</h1>
+    <form id="csv-form">
+        <label for="csv-file">Select a CSV file:</label>
+        <input type="file" id="csv-file" accept=".csv">
+        <button type="submit">Analyse</button>
+    </form>
+    <div id="chart"></div>
+    <table id="top-5">
+        <tr>
+            <th>Rank</th>
+            <th>Roll No.</th>
+            <th>Name</th>
+            <th>Subject1</th>
+            <th>Subject2</th>
+            <th>Subject3</th>
+            <th>Subject4</th>
+            <th>Subject5</th>
+            <th>Total</th>
+        </tr>
+    </table>
+    <script src="/script.js"></script>
+</body>
+
+</html>
